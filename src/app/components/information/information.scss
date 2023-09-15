@@ -1,0 +1,33 @@
+.infos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+    max-width: 500px;
+
+
+    .languages-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+         width: 100%;
+    }
+    span {
+        color: var(--text-secondary);
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    @media (min-width: 768px) {
+        
+        span {
+            font-size: 20px;
+            line-height: 36px;
+            text-align: start;
+        }
+    }
+}

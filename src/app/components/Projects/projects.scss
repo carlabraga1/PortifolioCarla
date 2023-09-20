@@ -1,0 +1,18 @@
+.slide-item{
+    margin: 100px;
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+
+  
+}
+.custom-swiper .swiper-pagination-bullet{
+background-color: var(--text-third);
+}
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev
+{
+   
+    color: var(--text-third);
+
+}

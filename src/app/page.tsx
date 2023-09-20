@@ -8,6 +8,7 @@ import { Experience } from './components/experience/experience'
 import { SocialBtns } from './components/social-btns/social-btns'
 import { Projects } from './components/Projects/projects'
 
+
 export default function Home() {
   return (
   <><section className='container-main'>
@@ -29,6 +30,7 @@ export default function Home() {
 
       <section className='container-projects'>
         <Projects/>
+     
       </section>
   
       </>

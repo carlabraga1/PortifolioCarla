@@ -1,7 +1,16 @@
+
+.container{
+    width: 50%;
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
 .slide-item{
     margin: 100px;
     width: 50%;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
 
   

@@ -14,11 +14,11 @@ import 'swiper/css/scrollbar';
 
 
 export function Projects (){
-    const [slidePerView ,  setSlidePerView] = useState(3)
+    const [slidePerView ,  setSlidePerView] = useState(2)
     const data = [
-        {id: '1', image: '/exemplo.png'},
-        {id: '2', image: '/eu.jpg'},
-        {id: '3', image: '/Eu.png'},
+        {id: '1', image: '/imgFundo.png'},
+        {id: '2', image: '/imgFundo.png'},
+        {id: '3', image: '/imgFundo.png'},
         {id: '4', image: '/exemplo.png'},
     ]
     useEffect(() => {
@@ -38,10 +38,10 @@ export function Projects (){
     return(
         <>
     <SectionTitle text="MEUS PROJETOS"/>
-
+    
     <Swiper
       className="custom-swiper"
-    slidesPerView={slidePerView}
+    slidesPerView={1}
     pagination ={{clickable: true}}
     navigation
     
@@ -55,6 +55,7 @@ export function Projects (){
         </SwiperSlide>
             ))}
     </Swiper>
+
    
    
         </>

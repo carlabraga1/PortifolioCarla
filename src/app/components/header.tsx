@@ -15,7 +15,7 @@ export default function Header(){
         <div className="NavBar">
           <a href="#">Início</a>
           <a href="#aboutme">Sobre</a>
-          <a href="#">Projetos</a>
+          <a href="#projects">Projetos</a>
           <a href="#">Contato</a>
         </div>
         <div className="headermain">

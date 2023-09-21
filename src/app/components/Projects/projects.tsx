@@ -26,7 +26,7 @@ export function Projects (){
             if(window.innerWidth < 720){
                 setSlidePerView(1);
             }else{
-                setSlidePerView(2);
+                setSlidePerView(1);
             }
         }
         handleResize();
@@ -37,8 +37,9 @@ export function Projects (){
     }, [])
     return(
         <>
+        <div id="projects">
     <SectionTitle text="MEUS PROJETOS"/>
-    
+    <div className="container-swiper">
     <Swiper
       className="custom-swiper"
     slidesPerView={1}
@@ -55,8 +56,8 @@ export function Projects (){
         </SwiperSlide>
             ))}
     </Swiper>
-
-   
+    </div>
+    </div>
    
         </>
     )
